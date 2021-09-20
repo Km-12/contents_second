@@ -1,5 +1,5 @@
 # contents_second
 
-Study Golang
+Study Go language.
 
-No "images" files
+No "images" files.
