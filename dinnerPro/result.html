@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang='ja'>
+	<head>
+		<meta charset='UTF-8'>
+		<meta name='viewport' content='width=device-width, initial-scale=1.0'>
+		<link rel="stylesheet" type="text/css" href="../resources/base.css">
+		<title>今日の晩ご飯</title>
+	</head>
+	<body>
+		<!-- メニュー表示画面 -->
+		<div class="bodymain">
+			<h1>今日の晩ご飯</h1>
+			<p><img src="../images/apron_man2-1idea.png" alt="決めた人" /></p>
+			<!-- メニューのランダム表示 -->
+			<p>　{{.Menu}}：{{.Result}}<br><br></p>
+			<p>　決まりだ！！！<br><br></p>
+			<!-- メイン画面に戻る -->
+			<button><a href='/index/'>戻る</a></button>
+		</div>
+	</body>
+</html>
